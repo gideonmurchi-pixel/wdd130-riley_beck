@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: "Open Sans", sans-serif;
+    line-height: 30px;
 }
 
 header {
@@ -89,7 +90,10 @@ body {
     color: #95062f;
     /* text-shadow: 1px 1px 2px #121212; */
     font-weight: 400;
-    padding: 1em;
+}
+
+#basics-text {
+    margin-top: -100px;
 }
 
 #basics img {
@@ -138,4 +142,39 @@ body {
 
 #gallery > .gal-card:nth-child(odd) h3 {
     color:#95062f;
+}
+
+#start h2, h3{
+    text-align: center;
+}
+
+#start h2 {
+    font-size: 35px;
+    font-weight: 300;
+    background-color: #748386;
+    padding: 10px 0;
+    color:#F1F0EA;
+}
+
+#start h3 {
+    color:#95062f;
+}
+
+#start-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    padding: 2em;
+}
+
+#start-grid p {
+    margin: 15px;
+}
+
+#start-text, #start-text2 {
+    align-content: center;
+}
+
+#start-text {
+    padding: 10px;
 }
