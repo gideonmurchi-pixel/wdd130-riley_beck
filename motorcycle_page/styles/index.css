@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,12 +23,45 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Bebas Neue", sans-serif;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --primary: #95062F;
+    --secondary: #121212;
+    --accent-1: #748386;
+    --accent-2: #F1F0EA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-right img {
+    width: auto;
+    height: 80px;
+    display: block;
+}
+
+body {
+    background-color: var(--accent-2);
+    color: var(--secondary);
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, nav a, .hero-buttons a {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+>>>>>>> 8010d17 (done)
 }
 
 p {
     font-family: "Open Sans", sans-serif;
 }
 
+<<<<<<< HEAD
 header {
     background-color: #95062f;
     padding: 1em 0;
@@ -138,4 +172,214 @@ body {
 
 #gallery > .gal-card:nth-child(odd) h3 {
     color:#95062f;
+=======
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: var(--accent-2);
+    border: 2px solid var(--secondary);
+}
+
+.main-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 1.5rem;
+}
+
+.main-nav a:hover {
+    color: var(--primary);
+}
+
+.logo img {
+    width: 140px;
+    height: auto;
+    display: block;
+}
+
+.search img {
+    width: 35px;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    background-color: white;
+    padding: 60px;
+}
+
+.hero_image {
+    flex: 1;
+}
+
+.hero_image img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: center;
+    color: var(--primary);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.hero-content h1 {
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-buttons a {
+    background-color: var(--primary);
+    color: var(--accent-2);
+    border: 2px solid var(--primary);
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    /* text-decoration: none;
+    color: #555;
+    border: 2px solid #555;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: white; */
+}
+
+.hero-buttons a:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--accent-2);
+}
+
+.page {
+    width: 95%;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.motorcycles_overview {
+    padding: 80px 60px;
+}
+
+.overview_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.overview_content,
+.overview_text,
+.overview_image {
+    flex: 1;
+}
+
+.overview_content h2 {
+    font-size: 3rem;      /* make it bigger */
+    margin-bottom: 20px;  /* space between title and text */
+    color: var(--primary);
+    font-family: "Bebas Neue", sans-serif
+}
+
+.overview_image img {
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.adventure_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 60px 60px;
+}
+
+.adventure_intro {
+    flex: 1;
+    text-align: center;
+    max-width: 600px;
+    color: var(--primary);
+    font-family: "Bebas Neue", sans-serif
+}
+
+.adventure_intro h2 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+}
+
+.adventure_intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.adventure_features {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.feature_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.feature_icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+    background-color: var(--accent-1);
+}
+
+
+.feature_text h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    color: var(--primary);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.feature_text p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    max-width: 420px;
+}
+
+.overview_content p,
+.overview_text p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 600px;
+>>>>>>> 8010d17 (done)
 }
