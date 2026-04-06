@@ -445,6 +445,7 @@ img {
     font-size: 1.2rem;
     line-height: 1.7;
     max-width: 600px;
+}
 #gallery > .gal-card:nth-child(odd) h3 {
     color:#95062f;
 }
