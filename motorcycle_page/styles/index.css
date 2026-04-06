@@ -366,3 +366,29 @@ body {
 #start-text2 ol {
     padding-left: 3em;
 }
+
+#riding-pos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    margin: 1em;
+    padding: 2em;
+    background-color: var(--primary);
+    color: var(--accent-2);
+    border-radius: 15px;
+    align-items: center;
+}
+
+#riding-pos h2 {
+    text-size-adjust: 30px;
+    padding: 1em;
+    text-align: center;
+}
+
+#pos-blurb h3 {
+    padding: 1em;
+    text-size-adjust: 25px;
+}
+#pos-blurb, #pos-blurb2 p {
+    padding: 1em;
+}
