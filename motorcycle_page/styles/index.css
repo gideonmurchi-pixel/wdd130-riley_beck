@@ -392,3 +392,39 @@ body {
 #pos-blurb, #pos-blurb2 p {
     padding: 1em;
 }
+
+#ststst {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    margin: 2em;
+}
+
+#ststst h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 2em;
+    grid-column: 1/4;
+}
+
+#ststst img {
+    grid-column: 1/4;
+    max-width: 80%;
+    justify-self: center;
+}
+.ststst-card {
+    padding: 2em;
+    border-radius: 15px;
+}
+
+.ststst-card h3 {
+    padding: 5px;
+}
+
+.ststst-card:nth-child(odd) {
+    background-color: var(--primary);
+}
+
+.ststst-card:nth-child(even) {
+    background-color: var(--accent-1);
+}
