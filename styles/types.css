@@ -1,0 +1,35 @@
+#heading {
+    margin: 2em;
+    text-align: center;
+}
+
+#heading h1 {
+    padding: 1em;
+}
+
+#heading img {
+    box-shadow: 2px 3px 5px #121212;
+    border-radius: 15px;
+    margin-top: 2em;
+    max-width: 80%;
+    justify-self: center;
+}
+
+#dirt_bike {
+    background-color: #95062f;
+    color: #F1F0EA;
+}
+
+#dirt_bike h2 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#dirt_bike img {
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px #121212;
+    margin: 1em;
+}
